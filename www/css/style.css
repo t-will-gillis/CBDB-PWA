@@ -1,0 +1,38 @@
+/*
+Target a <div> that has an id="" of divViewComics
+Note: No space between div#divViewComics, then target
+the <table> inside that <div>
+
+CSS has Selectors, Properties, and Values
+*/
+
+
+
+
+
+
+
+div#divViewComics table {
+    background-color: aquamarine;
+    margin: auto;
+    width: 95%;
+    border: 1mm ridge rgba(80, 16, 230, 0.6);
+    word-wrap: break-word;
+}
+
+div#divViewComics table tr th {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+div#divViewComics table tr td, div#divViewComics table tr th {
+    border: 1px solid rgb(248, 155, 49);
+}
+
+div#divViewComics table tr:nth-of-type(even) {
+    background-color: rgb(153, 197, 133);
+}
+
+div#divViewComics table tr:nth-of-type(odd) {
+    background-color: rgba(153, 197, 133, 0.5);
+}
