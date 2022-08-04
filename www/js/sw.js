@@ -2,7 +2,7 @@
 // New file for creating PWA
 
 // Change this to your repository name
-var GHPATH = '/T_Will_Gillis_Portfolio/';
+var GHPATH = '/CBDB-PWA/';
  
 // Choose a different app prefix name
 var APP_PREFIX = 'twgp_';
