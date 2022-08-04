@@ -2,14 +2,14 @@
     "name": "Comic Book Data Base PWA",
     "short_name": "CBDBPWA",
     "description": "Github Page as a Progressive Web App",
-    "scope": "/T_Will_Gillis_Portfolio/",
-    "start_url": "/T_Will_Gillis_Portfolio/",
+    "scope": "/CBDB-PWA/",
+    "start_url": "/CBDB-PWA/",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
     "display": "standalone", 
     "icons": [
         {
-          "src": "/T_Will_Gillis_Portfolio/img/icon.png",
+          "src": "/CBDB-PWA/img/icon.png",
           "type": "image/png",
           "sizes": "700x700"
         }
