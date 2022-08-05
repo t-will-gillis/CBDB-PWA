@@ -258,8 +258,14 @@
             navigator.serviceWorker.register (
                 '/CBDB-PWA/www/js/sw.js',
                 {scope: '/CBDB-PWA/www/'}
-            )
-        }
+            ).then(function(reg) { 
+		console.log('Success registering scope: ' + reg.scope);
+	    }).catch(function(error) {
+		 console.log('Failure with registration: ' + error);
+	    });
+        } else {
+	    console.log('Service worker cannot be registered');
+	}
     </script>
     
 </body>
