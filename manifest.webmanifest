@@ -9,7 +9,7 @@
   "display": "standalone", 
   "icons": [
       {
-        "src": "/CBDB-PWA/www/images/icon/icon-256x256.png",
+        "src": "/CBDB-PWA/www/images/icons/icon-256x256.png",
         "type": "image/png",
         "sizes": "256X256"
       }
