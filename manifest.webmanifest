@@ -1,0 +1,17 @@
+{
+  "name": "Comic Book Data Base PWA",
+  "short_name": "CBDBPWA",
+  "description": "Github Page as a Progressive Web App",
+  "scope": "/CBDB-PWA/",
+  "start_url": "/CBDB-PWA/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone", 
+  "icons": [
+      {
+        "src": "/CBDB-PWA/www/images/icon/icon-256x256.png",
+        "type": "image/png",
+        "sizes": "256X256"
+      }
+  ]
+}
